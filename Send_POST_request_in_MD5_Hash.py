@@ -1,7 +1,10 @@
+
+
 import requests, hashlib
 from bs4 import BeautifulSoup
 
-url = "http://docker.hackthebox.eu:31726/"
+
+url = "http://hackthebox.eu/"
 
 s = requests.session()
 response = s.get(url)
